@@ -1,0 +1,12 @@
+{
+  "name": "chapter1_assembly_primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "asm": "env GOOS=linux GOARCH=amd64 go tool compile -S direct_topfunc_call.go > direct_topfunc_call.S"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
